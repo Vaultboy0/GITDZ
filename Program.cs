@@ -1,7 +1,4 @@
 ﻿
-string[] array = AskArray();
-string[] ResultArray= FindlessThan(array,3);
-
 string[] FindLessThan(string[] input, int n) {
     string[] output = new string[CountLess(input, n)];
 
@@ -29,3 +26,7 @@ string[] AskArray() {
     Write("Введите значения через пробел: ");
     return ReadLine().Split(" ");
 }
+
+
+string[] array = AskArray();
+string[] ResultArray= FindlessThan(array,3);
