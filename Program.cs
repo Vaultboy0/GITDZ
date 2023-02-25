@@ -30,3 +30,4 @@ string[] AskArray() {
 
 string[] array = AskArray();
 string[] ResultArray= FindLessThan(array,3);
+WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", result)}]");
