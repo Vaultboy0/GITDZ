@@ -23,10 +23,10 @@ int CountLess(string[] input, int n) {
 }
 
 string[] AskArray() {
-    Write("Введите значения через пробел: ");
-    return ReadLine().Split(" ");
+    Console.Write("Введите значения через пробел: ");
+    return Console.ReadLine().Split(" ");
 }
 
 
 string[] array = AskArray();
-string[] ResultArray= FindlessThan(array,3);
+string[] ResultArray= FindLessThan(array,3);
